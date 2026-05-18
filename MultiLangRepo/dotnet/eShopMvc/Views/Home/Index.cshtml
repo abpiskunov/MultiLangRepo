@@ -1,0 +1,27 @@
+@{
+    ViewBag.Title = "Home - eShop";
+}
+
+<div class="jumbotron">
+    <h1>Welcome to eShop</h1>
+    <p class="lead">Your online store built with ASP.NET MVC 5 and Entity Framework 6.</p>
+    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Index", "Catalog")">Browse Catalog &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Browse</h2>
+        <p>View our catalog of branded merchandise including mugs, t-shirts, and more.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Catalog")">Browse &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Cart</h2>
+        <p>Add items to your shopping cart and check out when ready.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Cart")">View Cart &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>About</h2>
+        <p>Learn more about this sample application and the technology behind it.</p>
+        <p><a class="btn btn-default" href="@Url.Action("About", "Home")">About &raquo;</a></p>
+    </div>
+</div>

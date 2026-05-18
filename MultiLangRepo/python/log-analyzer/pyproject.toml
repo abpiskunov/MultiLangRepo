@@ -1,0 +1,8 @@
+[project]
+name = "log-analyzer"
+version = "1.0.0"
+description = "A log file analyzer with pattern matching and statistics"
+requires-python = ">=3.10"
+
+[project.scripts]
+log-analyzer = "log_analyzer:main"

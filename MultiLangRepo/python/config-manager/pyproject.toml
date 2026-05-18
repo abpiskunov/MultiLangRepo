@@ -1,0 +1,6 @@
+[project]
+name = "config-manager"
+version = "1.0.0"
+description = "A hierarchical configuration manager with multiple providers"
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0"]

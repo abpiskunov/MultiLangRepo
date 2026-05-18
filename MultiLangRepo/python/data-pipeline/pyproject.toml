@@ -1,0 +1,5 @@
+[project]
+name = "data-pipeline"
+version = "1.0.0"
+description = "A simple ETL data pipeline with pluggable transforms"
+requires-python = ">=3.10"
